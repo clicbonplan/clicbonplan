@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLICBONPLAN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Style global de la page */
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #f9fbfc;
+      color: #1a1a1a;
+    }
+
+    /* En-tête avec logo + navigation */
+    header {
+      background: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #1a1a1a;
+      font-weight: 500;
+    }
+
+    /* Section d’introduction (hero) */
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    /* Section des catégories de produits */
+    .categories {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    /* Carte individuelle d’un produit */
+    .category {
+      background: white;
+      border-radius: 1rem;
+      padding: 1rem;
+      width: 250px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .category img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+
+    .category h3 {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+
+    .category p {
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    .category a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: #007bff;
+      color: white;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>CLICBONPLAN</h2>
+    <nav>
+      <a href="#">Électronique</a>
+      <a href="#">Beauté</a>
+      <a href="#">Maison</a>
+      <a href="#">Mode</a>
+      <a href="#">Sport</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Les Meilleurs Bons Plans du Web</h1>
+    <p>Découvrez une sélection de produits aux meilleurs prix.</p>
+  </section>
+
+  <section class="categories">
+    <!-- Exemples de produits -->
+    <div class="category">
+      <img src="https://via.placeholder.com/250x150.png?text=Casque+sans+fil" alt="Casque sans fil">
+      <h3>Casque sans fil</h3>
+      <p>Profitez d'un son de haute-qualité avec ce casque sans fil.</p>
+      <a href="#">Voir l'offre</a>
+    </div>
+    <div class="category">
+      <img src="https://via.placeholder.com/250x150.png?text=S%C3%A9rum+anti-%C3%A2ge" alt="Sérum anti-âge">
+      <h3>Sérum anti-âge</h3>
+      <p>Réduisez les signes de l’âge avec ce sérum efficace.</p>
+      <a href="#">Voir l'offre</a>
+    </div>
+    <div class="category">
+      <img src="https://via.placeholder.com/250x150.png?text=Lampe+de+bureau" alt="Lampe de bureau">
+      <h3>Lampe de bureau</h3>
+      <p>Éclairez votre espace de travail avec cette lampe de bureau.</p>
+      <a href="#">Voir l'offre</a>
+    </div>
+    <div class="category">
+      <img src="https://via.placeholder.com/250x150.png?text=T-shirt+homme" alt="T-shirt homme">
+      <h3>T-shirt homme</h3>
+      <p>T-shirt en coton pour un confort optimal et un style casual.</p>
+      <a href="#">Voir l'offre</a>
+    </div>
+  </section>
+</body>
+</html>
